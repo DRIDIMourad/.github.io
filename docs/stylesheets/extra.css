@@ -1,0 +1,32 @@
+/* Bandeau à motif, comme le site de référence */
+.md-header,
+.md-tabs {
+  background-color: #2e2a8c;
+  background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,.12) 0 6px, transparent 7px),
+                    radial-gradient(circle at 0 0, transparent 14px, rgba(255,255,255,.10) 15px 19px, transparent 20px);
+  background-size: 40px 40px, 40px 40px;
+}
+
+/* Bloc "À propos" : photo + texte + encadré contact */
+.grid-about {
+  display: grid;
+  grid-template-columns: 180px 1fr minmax(240px, 300px);
+  gap: 1.5rem;
+  align-items: start;
+}
+.grid-about .admonition { margin: 0; }
+.photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.md-header__button.md-logo img {
+  border-radius: 50%;
+  height: 2rem;
+}
+
+@media (max-width: 760px) {
+  .grid-about { grid-template-columns: 1fr; }
+  .photo { margin: 0 auto; display: block; }
+}

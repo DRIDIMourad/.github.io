@@ -1,0 +1,73 @@
+site_name: Votre Nom
+site_url: https://votrepseudo.github.io/
+site_description: Page enseignement et recherche
+copyright: © Votre Nom
+
+repo_url: https://github.com/votrepseudo/votrepseudo.github.io
+repo_name: Git
+
+theme:
+  name: material
+  language: fr
+  logo: assets/photo.svg
+  favicon: assets/photo.svg
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+    - scheme: slate
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+  font:
+    text: Montserrat
+  features:
+    - navigation.tabs          # onglets "Recherche" / "Enseignements" en haut
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/git-alt
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: material/phone
+      link: tel:+21600000000
+      name: Téléphone
+    - icon: material/email
+      link: mailto:prenom.nom@universite.tn
+      name: E-mail
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Accueil: index.md
+  - Recherche: research/index.md
+  - Enseignements:
+      - units/index.md
+      - UE exemple:
+          - units/ue-exemple/index.md
+          - TP1: units/ue-exemple/tp/tp1.md
