@@ -9,8 +9,8 @@ repo_name: Git
 theme:
   name: material
   language: fr
-  logo: assets/photo.svg
-  favicon: assets/photo.svg
+  logo: assets/photo.PNG
+  favicon: assets/photo.PNG
   palette:
     - scheme: default
       primary: indigo
