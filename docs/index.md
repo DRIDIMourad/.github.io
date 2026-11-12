@@ -8,21 +8,19 @@ hide:
 
 <div class="grid-about" markdown>
 
-![Photo](assets/photo.PNG){ .photo }
+![Photo de Mourad DRIDI](assets/photo.PNG){ .photo }
 
 <div markdown>
-Je suis enseignant-chercheur au département **[Nom du département]** de
-**[Nom de l'établissement](https://www.exemple.tn)**.
+Je suis enseignant-chercheur au département Ingénierie des Systèmes
+Cyberphysiques (DISC) d'[ESIEE Paris](https://www.esiee.fr), école de
+l'[Université Gustave Eiffel](https://www.univ-gustave-eiffel.fr).
 
-Je suis responsable de **[filière / parcours]**.
-
-Je suis membre du laboratoire **[Nom du laboratoire](https://www.exemple.tn)**,
-au sein de l'équipe **[Nom de l'équipe]**.
+Je suis membre du [Laboratoire d'Informatique Gaspard-Monge (LIGM)](https://ligm.univ-eiffel.fr),
+au sein de l'équipe LRT.
 </div>
 
 !!! info "Contact"
-    :material-home: Bureau [numéro], [bâtiment]  
-    :material-phone: [+216 00 000 000](tel:+21600000000)  
-    :material-email: prenom.nom(@)universite(.)tn
+    :material-home: Bureau [4205], ESIEE Paris  
+    :material-email: prenom.nom(@)esiee(.)fr
 
 </div>
