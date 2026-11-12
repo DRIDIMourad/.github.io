@@ -1,30 +1,32 @@
 site_name: Mourad DRIDI
 site_url: https://votrepseudo.github.io/
-site_description: Page enseignement et recherche
+site_description: Mourad DRIDI, enseignant-chercheur à ESIEE Paris (DISC) et au LIGM (équipe LRT)
 copyright: © Mourad DRIDI
+
 repo_url: https://github.com/votrepseudo/votrepseudo.github.io
 repo_name: Git
 
 theme:
   name: material
   language: fr
-  logo: assets/photo.PNG
-  favicon: assets/photo.PNG
+  logo: assets/photo.svg
+  favicon: assets/photo.svg
   palette:
     - scheme: default
-      primary: indigo
-      accent: pink
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Mode sombre
     - scheme: slate
-      primary: indigo
-      accent: pink
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Mode clair
   font:
-    text: Montserrat
+    text: IBM Plex Sans
+    code: IBM Plex Mono
   features:
     - navigation.tabs          # onglets "Recherche" / "Enseignements" en haut
     - navigation.sections
@@ -41,11 +43,11 @@ extra_css:
 
 extra:
   social:
-    - icon: material/phone
-      link: tel:+21600000000
-      name: Téléphone
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=CFmoyZIAAAAJ&hl=fr
+      name: Google Scholar
     - icon: material/email
-      link: mailto:prenom.nom@universite.tn
+      link: mailto:mourad.dridi@univ-eiffel.fr
       name: E-mail
 
 plugins:
@@ -64,7 +66,11 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - Recherche: research/index.md
+  - Recherche:
+      - research/index.md
+      - NPSIM: research/npsim.md
+      - Projets: research/projets.md
+      - Stages encadrés: research/encadrement.md
   - Enseignements:
       - units/index.md
       - UE exemple:
