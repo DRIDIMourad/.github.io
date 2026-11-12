@@ -8,7 +8,7 @@ hide:
 
 <div class="grid-about" markdown>
 
-![Photo](assets/photo.svg){ .photo }
+![Photo](assets/photo.PNG){ .photo }
 
 <div markdown>
 Je suis enseignant-chercheur au département **[Nom du département]** de
